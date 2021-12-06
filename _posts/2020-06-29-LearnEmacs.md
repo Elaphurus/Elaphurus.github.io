@@ -55,6 +55,7 @@ categories: jekyll update
 - 大写光标至单词结束的字符 `M-u`（小写 `M-l`，首字母大写 `M-c`）
 - 交换左右单词 `M-t`（交换左右字符 `C-t`）
 - 替换 `M-x replace-string ... ...`
+- 剪切 `C-w`
 - 复制 `M-w`
 
 ### 文件/缓存
