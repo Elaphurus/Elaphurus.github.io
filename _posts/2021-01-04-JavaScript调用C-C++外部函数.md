@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "JavaScript 调用 C/C++ 外部函数"
+title:  "JavaScript 通过 wasm 调用 C/C++ 外部函数"
 date:   2021-01-14
 categories: jekyll update
 ---
 
 本文主要包括以下内容：
 
-- JS 调用 C/C++ 的方法和原理
+- JS 通过 wasm 调用 C/C++ 的方法和原理
 - JS 外部函数调用的类型错误隐患
 - JS/C 内存管理：单向透明的内存模型
 
-JS 调用 C/C++ 需要通过 WebAssembly，假设有 C++ 文件 `function.cpp` 如下：
+JS 调用 C/C++ 的一种方式是通过 WebAssembly，假设有 C++ 文件 `function.cpp` 如下：
 
 ```c++
 #include <math.h>
