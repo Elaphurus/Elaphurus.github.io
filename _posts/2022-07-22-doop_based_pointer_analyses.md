@@ -5,9 +5,9 @@ date:   2022-07-22
 categories: jekyll update
 ---
 
-# Doop based pointer analysis
+# Doop based pointer analyses
 
-- [Doop based pointer analysis](#doop-based-pointer-analysis)
+- [Doop based pointer analyses](#doop-based-pointer-analyses)
   - [Doop](#doop)
     - [Datalog 与指针分析](#datalog-与指针分析)
     - [指针分析规范](#指针分析规范)
