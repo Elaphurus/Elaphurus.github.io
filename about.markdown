@@ -29,7 +29,7 @@ Advisor: Yu Zhang, Associate Professor.
 
 - **Mingzhe Hu**, Yu Zhang, Wenchao Huang, and Yan Xiong. <u>Static Type Inference for Foreign Functions of Python</u>. 32nd International Symposium on Software Reliability Engineering (ISSRE 2021), pages 423-433, Wuhan, Hubei, China, October, 2021.
 - Yun Peng, Yu Zhang, and **Mingzhe Hu**. <u>An Empirical Study for Common Language Features Used in Python Projects</u>. 28th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2021), pages 24-35, virtual, March, 2021.
-- **Mingzhe Hu**, and Yu Zhang. <u>The Python/C API: Evolution, Usage Statistics, and Bug Patterns</u>. 27th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2020), pages 532-536, London, Ontario, Canada, Feb, 2020.
+- **Mingzhe Hu**, and Yu Zhang. <u>The Python/C API: Evolution, Usage Statistics, and Bug Patterns</u>. 27th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2020 ERA), pages 532-536, London, Ontario, Canada, Feb, 2020.
 
 ### Projects
 
