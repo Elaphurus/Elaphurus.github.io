@@ -64,5 +64,6 @@ categories: jekyll update
 - 保存 `C-x C-s`
 - 显示缓存列表 `C-x C-b`
 - 打开缓存 `C-x b ...`
+- 关闭缓存 `C-x k`
 - 保存缓存 `C-x s`
 - 恢复自动保存文件 `M-x recover-file`
