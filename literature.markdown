@@ -4,4 +4,4 @@ title: Literature
 permalink: /literature/
 ---
 
-[[Nobel 1901] Sully Prudhomme]({{site.url}/literature/nobel1901.md})
+[[Nobel 1901] Sully Prudhomme]({{site.url}/literature/nobel1901.html})
