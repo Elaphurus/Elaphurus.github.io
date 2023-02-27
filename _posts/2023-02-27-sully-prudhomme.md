@@ -65,4 +65,4 @@ Do not touch the broken vase.
 
 ### 参考
 
-1. F. (2020) 一樣的花瓶，不一樣的普呂多姆和納蘭性德, <https://www.soleil-noir.me/blog/broken-vase>.
+1. F. (2020) *一樣的花瓶，不一樣的普呂多姆和納蘭性德*, <https://www.soleil-noir.me/blog/broken-vase>.
