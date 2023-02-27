@@ -1,5 +1,6 @@
 ---
 layout: home
+title: About
 ---
 
 ### Mingzhe Hu (胡明哲)
