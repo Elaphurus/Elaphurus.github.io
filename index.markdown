@@ -1,9 +1,3 @@
----
-layout: page
-title: About
-permalink: /about/
----
-
 ### Mingzhe Hu (胡明哲)
 
 [Photo]({{site.url}}/figs/hmz.jpg)
