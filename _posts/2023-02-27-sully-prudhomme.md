@@ -11,20 +11,14 @@ categories: jekyll update
 
 ### Le Vase Brisé (The Broken Vase)
 
-The vase where this verbena’s dying
-
-Was cracked by a lady’s fan’s soft blow.
-
-It must have been the merest grazing:
-
+The vase where this verbena’s dying\\
+Was cracked by a lady’s fan’s soft blow.\\
+It must have been the merest grazing:\\
 We heard no sound. The fissure grew.
-<br/>
-The little wound spread while we
 
-Pried deep in the crystal, bit by bit.
-
-A long, slow marching line, it crept
-
+The little wound spread while we\\
+Pried deep in the crystal, bit by bit.\\
+A long, slow marching line, it crept\\
 From spreading base to curving lip.
 
 
