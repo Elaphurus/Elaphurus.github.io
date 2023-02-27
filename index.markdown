@@ -1,6 +1,7 @@
 ---
 layout: home
 title: About
+permalink: /about/
 ---
 
 ### Mingzhe Hu (胡明哲)
