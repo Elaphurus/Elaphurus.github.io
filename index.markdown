@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 ### Mingzhe Hu (胡明哲)
 
 [Photo]({{site.url}}/figs/hmz.jpg)
