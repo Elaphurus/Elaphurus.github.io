@@ -19,9 +19,9 @@ Programming Languages, Software Engineering, Security
 ### Education/Employment
 
 - Ph.D. in Cyberspace Security, University of Science and Technology of China (USTC), 2020-?.
-Advisor: Yan Xiong, Professor, and Yu Zhang, Associate Professor.
+Advisor: Yan Xiong, Professor, and Yu Zhang, Professor.
 - M.S. in Cyberspace Security, University of Science and Technology of China (USTC), 2018-2020.
-Advisor: Yu Zhang, Associate Professor.
+Advisor: Yu Zhang, Professor.
 - Software Engineer, WUXI CAS PHOTONICS Co., Ltd., 2016-2017.
 - B.S. in Internet of Things, Jiangnan University, 2012-2016.
 
