@@ -35,7 +35,7 @@ Advisor: Yu Zhang, Professor.
 <!-- - <u>一种 Python 外部函数的静态类型推断方法及系统</u>. 发明人: 张昱, **胡明哲**. 申请号: CN202111105813.3A. 申请日: 20210922. 公开号: CN113885854A. 公开日: 20220104. <https://patents.google.com/patent/CN113885854A>
 - <u>一种 Python 语言特征自动识别系统和方法</u>. 申请人: 中国科学技术大学, 发明人: 张昱, 彭昀, **胡明哲**. 专利号: ZL202010663123.9, 申请日: 20200710, 公开日: 20201030, 授权公告日: 20220111, 公开号: CN111858322B, 证书号: 4889779. <https://patents.google.com/patent/CN111858322B> -->
 
-<!-- - Robert Harper 著, 张昱, **胡明哲**等译. <u>实用编程语言理论基础</u>. ISBN: 978-7-111-69740-4. 机械工业出版社. <http://www.hzcourse.com/web/teachRes/detail/5352/208> -->
+- Robert Harper 著, 张昱, **胡明哲**等译. <u>实用编程语言理论基础</u>. ISBN: 978-7-111-69740-4. 机械工业出版社. <http://www.hzcourse.com/web/teachRes/detail/5352/208>
 
 ### Projects
 
