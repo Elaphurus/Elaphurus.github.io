@@ -27,6 +27,8 @@ Advisor: Yu Zhang, Professor.
 
 ### Publications
 
+- **Mingzhe Hu**, Qi Zhao, Yu Zhang and Yan Xiong. <u>Cross-Language Call Graph Construction Supporting Different Host Languages</u>. 30th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2023), to be appear, Macao SAR, China, March, 2023.
+- Boyao Ding, Yu Zhang, Jinbao Chen, **Mingzhe Hu** and Qingwei Li. <u>CGORewritter: A better way to use C library in Go</u>. 30th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2023 ERA), to be appear, Macao SAR, China, March, 2023.
 - **Mingzhe Hu**, Yu Zhang. <u>An Empirical Study of the Python/C API on Evolution and Bug Patterns</u>. Journal of Software: Evolution and Process. 2022; e2507. <https://doi.org/10.1002/smr.2507>
 - **Mingzhe Hu**, Yu Zhang, Wenchao Huang, and Yan Xiong. <u>Static Type Inference for Foreign Functions of Python</u>. 32nd International Symposium on Software Reliability Engineering (ISSRE 2021), pages 423-433, Wuhan, Hubei, China, October, 2021. <https://doi.org/10.1109/ISSRE52982.2021.00051>
 - Yun Peng, Yu Zhang, and **Mingzhe Hu**. <u>An Empirical Study for Common Language Features Used in Python Projects</u>. 28th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2021), pages 24-35, Honolulu, Hawaii, US, March, 2021. <https://doi.org/10.1109/SANER50967.2021.00012>
