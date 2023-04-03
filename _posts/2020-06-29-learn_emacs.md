@@ -22,6 +22,7 @@ categories: jekyll update
 - 在新窗口中显示命令文档 `C-h k ...`
 - 命令的简短描述 `C-h c ...`
 - 以关键字搜索命令 `C-h a ...`
+- 在 scratch 中求值 Lisp 表达式 `C-j`
 
 ### 窗口/光标移动
 
