@@ -14,7 +14,7 @@ EMail: humingzhework (at) 163 (dot) com
 
 ### Research Interests
 
-Programming Languages, Software Engineering, Security
+Programming Languages, Static Program Analysis
 
 ### Education/Employment
 
