@@ -203,11 +203,11 @@
               (term (lambda () ((K 0 0) (lambda () (K 0 0))))))
   (test-equal (term (sd/a (lambda (z x) (x (lambda (y) z))) ()))
               (term (lambda () ((K 0 1) (lambda () (K 1 0)))))))
- 
+
 (define-metafunction SDA
   sda/a : any ((x ...) ...) -> any
   [(sda/a x ((x_1 ...) ... (x_0 ... x x_2 ...) (x_3 ...) ...))
-   ; bound variable 
+   ; bound variable
    (K n_rib n_pos)
    (where n_rib ,(length (term ((x_1 ...) ...))))
    (where n_pos ,(length (term (x_0 ...))))
@@ -217,7 +217,7 @@
   [(sda/a (any_fun any_arg ...) (any_rib ...))
    ((sda/a any_fun (any_rib ...)) (sda/a any_arg (any_rib ...)) ...)]
   [(sda/a any_1 any)
-   ; free variable, constant, etc 
+   ; free variable, constant, etc
    any_1])
 
 (module+ test
@@ -264,3 +264,131 @@
 
 (module+ test
   (test-results))
+
+; 2.4
+
+(define-extended-language Lambda-calculus Lambda
+  (e ::= .... n)
+  (n ::= natural)
+  (v ::= (lambda (x ...) e))
+
+  ; a context is an expression with one hole in lieu of a sub-expression
+  (C ::=
+     hole
+     (e ... C e ...)
+     (lambda (x_!_ ...) C)))
+
+(define Context? (redex-match? Lambda-calculus C))
+
+(module+ test
+  (define C1 (term ((lambda (x y) x) hole 1)))
+  (define C2 (term ((lambda (x y) hole) 0 1)))
+  (test-equal (Context? C1) #true)
+  (test-equal (Context? C2) #true))
+
+(module+ test
+  (test-results))
+
+; the λβ calculus, reductions only
+(module+ test
+  ; does the one-step reduction reduce both β redexes?
+  (test--> -->β
+           #:equiv =α/racket
+           (term ((lambda (x) ((lambda (y) y) x)) z))
+           (term ((lambda (x) x) z))
+           (term ((lambda (y) y) z)))
+
+  ; does the full reduction relation reduce all redexes?
+  (test-->> -->β
+            (term ((lambda (x y) (x 1 y 2))
+                   (lambda (a b c) a)
+                   3))
+            1))
+
+(define -->β
+  (reduction-relation
+   Lambda-calculus
+   (--> (in-hole C ((lambda (x_1 ..._n) e) e_1 ..._n))
+        (in-hole C (subst ([e_1 x_1] ...) e)))))
+
+(module+ test
+  (test-results))
+
+(traces -->β
+        (term ((lambda (x y)
+                 ((lambda (f) (f (x 1 y 2)))
+                  (lambda (w) 42)))
+               ((lambda (x) x) (lambda (a b c) a))
+               3)))
+
+(define -->βv
+  (reduction-relation
+   Lambda-calculus
+   (--> (in-hole C ((lambda (x_1 ..._n) e) v_1 ..._n))
+        (in-hole C (subst ([v_1 x_1] ...) e)))))
+
+(traces -->βv
+        (term ((lambda (x y)
+                 ((lambda (f) (f (x 1 y 2)))
+                  (lambda (w) 42)))
+               ((lambda (x) x) (lambda (a b c) a))
+               3)))
+
+(define-extended-language Standard Lambda-calculus
+  (v ::= n (lambda (x ...) e))
+  (E ::=
+     hole
+     (v ... E e ...)))
+
+(module+ test
+  (define t0
+    (term
+     ((lambda (x y) (x y))
+      ((lambda (x) x) (lambda (x) x))
+      ((lambda (x) x) 5))))
+  (define t0-one-step
+    (term
+     ((lambda (x y) (x y))
+      (lambda (x) x)
+      ((lambda (x) x) 5))))
+
+  ; yields only one term, leftmost-outermost
+  (test--> s->βv t0 t0-one-step)
+  ; but the transitive closure drives it to 5
+  (test-->> s->βv t0 5))
+
+(define s->βv
+  (reduction-relation
+   Standard
+   (--> (in-hole E ((lambda (x_1 ..._n) e) v_1 ..._n))
+        (in-hole E (subst ((v_1 x_1) ...) e)))))
+
+(module+ test
+  (test-results))
+
+(module+ test
+  (test-equal (term (eval-value ,t0)) 5)
+  (test-equal (term (eval-value ,t0-one-step)) 5)
+
+  (define t1
+    (term ((lambda (x) x) (lambda (x) x))))
+  (test-equal (lambda? t1) #true)
+  (test-equal (redex-match? Standard e t1) #true)
+  (test-equal (term (eval-value ,t1)) 'closure))
+
+(define-metafunction Standard
+  eval-value : e -> v or closure
+  [(eval-value e) any_1 (where any_1 (run-value e))])
+
+(define-metafunction Standard
+  run-value : e -> v or closure
+  [(run-value n) n]
+  [(run-value v) closure]
+  [(run-value e)
+   (run-value e_again)
+   ; (v) means that we expect s->βv to be a function
+   (where (e_again) ,(apply-reduction-relation s->βv (term e)))])
+
+(module+ test
+  (test-results))
+
