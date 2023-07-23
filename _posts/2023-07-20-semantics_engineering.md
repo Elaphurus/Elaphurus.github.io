@@ -7,7 +7,7 @@ categories: jekyll update
 
 ### Theory of programming languages
 
-*Calculus* is a logic for calculating with the terms of the language.s
+*Calculus* is a logic for calculating with the terms of the language.
 For example,
 
 ```
