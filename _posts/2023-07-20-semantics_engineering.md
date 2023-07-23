@@ -5,32 +5,36 @@ date:   2023-07-20
 categories: jekyll update
 ---
 
-# Semantics engineering
+### Theory of programming languages
 
-## Theory of programming languages
-
-*Calculus* is a logic for calculating with the terms of the language.
+*Calculus* is a logic for calculating with the terms of the language.s
 For example,
 
-e = x | $\lambda$ x.e | (e e)
+```
+e = x | λ x.e | (e e)
+```
 
 Extensions with primitive data:
 
-e = x | $\lambda$ x.e | (e e) | tt | ff | (if e e e)
+```
+e = x | λ x.e | (e e) | tt | ff | (if e e e)
+```
 
-External interpretation functions ($\delta$):
+External interpretation functions (δ):
 
+```
 (if tt e e') if-tt e
-
 (if ff e e') if-ff e'
+```
 
 *Semantics* is a system for determining the value of a program.
 
 *Reduction* is a relation on terms:
 
-(($\lambda$ x.e) e') beta e[x = x'] (e with x replaced by e')
-
-(($\lambda$ x.e) e') beta [e'/x]e (substitution e' for x in e)
+```
+((λ x.e) e') beta e[x = x'] (e with x replaced by e')
+((λ x.e) e') beta [e'/x]e (substitution e' for x in e)
+```
 
 *Equational system* is defined with three properties:
 
@@ -43,11 +47,13 @@ $\frac{\text{e R e'}}{\text{e e'' R e' e''}}$
 $\frac{\text{e R e'}}{\text{e'' e R e'' e'}}$
 
 *transitivity*
-$\frac{\text{e R e'}}{\text{$\lambda$ x.e R $\lambda$ x.e'}}$
+$\frac{\text{e R e'}}{\text{λ x.e R λ x.e'}}$
 
 With an equational system, we can prove such facts as
 
+```
 e (Y e) = (Y e)
+```
 
 meaning every single term has a *fixpoint*.
 
@@ -56,23 +62,26 @@ meaning every single term has a *fixpoint*.
 In Plotkin's theory of programming languages, a semantic is a relation
 *eval* from programs to values:
 
-eval : Program $\times$ Value
-
+```
+eval : Program ✕ Value
 def e eval v iff e = v
+```
 
 We get a *specification* of an interpreter after proving that eval is a
 function.
 
-eval : Program $\rightarrow$ Value
-
+```
+eval : Program → Value
 eval(e) = v
+```
 
 Prove that the calculus satisfies a standard reduction property. This gives us a
 second semantic.
 
-eval-standard : Program $\rightarrow$ Value
-
+```
+eval-standard : Program → Value
 def eval-standard(e) = v iff e standard reduces to v
+```
 
 Curry-Feys's *standard reduction* is a strategy for the lambda calculus,
 that is, a function that picks the next reducible expression (called
@@ -81,10 +90,12 @@ strategy.
 
 Plotkin adds the *truth* to the specification.
 
-def e $\sim$ e' iff placing e and e' into any context yields programs that
+```
+def e ~ e' iff placing e and e' into any context yields programs that
 produce the same observable behavior according to eval
+```
 
-## Redex
+### Redex
 
 Redex is a scripting language and set of associated tools
 supporting the conception, design, construction, and testing of semantic systems
@@ -93,7 +104,7 @@ analyses. As a scripting language, it enables an engineer to create executable
 specifications of common semantic elements such as grammars, reduction
 relations, judgments, and metafunctions; the basic elements of formal systems.
 
-## Syntax
+### Syntax
 
 ```
 ; syntax trees
@@ -125,7 +136,7 @@ relations, judgments, and metafunctions; the basic elements of formal systems.
 (test-equal (lambda? eb2) #false)
 ```
 
-## Metafunction
+### Metafunction
 
 A metafunction is a function on terms of a specific language.
 
@@ -183,7 +194,7 @@ A metafunction is a function on terms of a specific language.
   (test-results))
 ```
 
-## Scope
+### Scope
 
 To specify the scope, a free-variables function specifies which language
 constructs bind and which one don't.
@@ -295,7 +306,7 @@ $\alpha$ equivalence:
   (test-results))
 ```
 
-## Substitution
+### Substitution
 
 *Substitution* is the syntactic equivalent of function application.
 
@@ -341,7 +352,7 @@ $\alpha$ equivalence:
   (test-results))
 ```
 
-## Reduction and semantics
+### Reduction and semantics
 
 The logical way of generating an equivalence (or reduction) relation over terms
 uses through inductive inference rules that make the relation compatible with
@@ -490,7 +501,7 @@ reduction rule:
   (test-results))
 ```
 
-## References
+### References
 
 [1] Robert Bruce Findler, Casey Klein, Burke Fetscher, and Matthias Felleisen.
 (2015) \emph{Redex: Practical Semantics Engineering},
