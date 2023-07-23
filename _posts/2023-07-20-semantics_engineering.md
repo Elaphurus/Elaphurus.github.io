@@ -40,14 +40,11 @@ External interpretation functions (δ):
 
 For any relation R,
 
-*reflexivity*
-$\frac{\text{e R e'}}{\text{e e'' R e' e''}}$
+*reflexivity*: if `e R e'`, then `e e'' R e' e''`
 
-*symmetry*
-$\frac{\text{e R e'}}{\text{e'' e R e'' e'}}$
+*symmetry*: if `e R e'`, then `e'' e R e'' e'`
 
-*transitivity*
-$\frac{\text{e R e'}}{\text{λ x.e R λ x.e'}}$
+*transitivity*: if `e R e'`, then `λ x.e R λ x.e'`
 
 With an equational system, we can prove such facts as
 
@@ -221,7 +218,7 @@ constructs bind and which one don't.
    (where ((x_a ...) ...) ((fv e_a) ...))])
 ```
 
-*$\alpha$ equivalence* is a realtion that virtually eliminates variables
+*α equivalence* is a realtion that virtually eliminates variables
 from phrases and replaces them with arrows to their declarations. In
 lambda calculus-based languages, this transformation is often a part of the
 compiler, called the *static-distance* phase.
@@ -286,7 +283,7 @@ Steps of the last formulation:
 -> (lambda () ((K 0 1) (lambda () (K 1 0))))
 ```
 
-$\alpha$ equivalence:
+α equivalence:
 
 ```
 ; (=α e_1 e_2) determines whether e_1 and e_2 are α equivalent
@@ -504,5 +501,5 @@ reduction rule:
 ### References
 
 [1] Robert Bruce Findler, Casey Klein, Burke Fetscher, and Matthias Felleisen.
-(2015) \emph{Redex: Practical Semantics Engineering},
-\url{https://docs.racket-lang.org/redex/index.html}.
+(2015) *Redex: Practical Semantics Engineering*,
+<https://docs.racket-lang.org/redex/index.html>.
