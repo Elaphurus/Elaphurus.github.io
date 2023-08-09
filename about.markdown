@@ -19,7 +19,7 @@ Programming Languages, Static Program Analysis
 ### Education/Employment
 
 - Ph.D. in Cyberspace Security, University of Science and Technology of China (USTC), 2020-?.
-Advisor: Professor Yan Xiong（熊焰）, Professor Yu Zhang（张昱）
+Advisor: Professor Yu Zhang（张昱）, Professor Yan Xiong（熊焰）
 - M.S. in Cyberspace Security, University of Science and Technology of China (USTC), 2018-2020.
 Advisor: Professor Yu Zhang
 - Software Engineer, WUXI CAS PHOTONICS Co., Ltd., 2016-2017.
@@ -34,11 +34,14 @@ Advisor: Professor Yu Zhang
 - Yun Peng, Yu Zhang, **Mingzhe Hu**. <u>An Empirical Study for Common Language Features Used in Python Projects</u>. 28th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2021), pages 24-35, Honolulu, Hawaii, US, March, 2021. <https://doi.org/10.1109/SANER50967.2021.00012>
 - **Mingzhe Hu**, Yu Zhang. <u>The Python/C API: Evolution, Usage Statistics, and Bug Patterns</u>. 27th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2020 ERA), pages 532-536, London, Ontario, Canada, Feb, 2020. <https://doi.org/10.1109/SANER48275.2020.9054835>
 
+- Robert Harper 著, 张昱, **胡明哲**等译. <u>实用编程语言理论基础</u> (Practical Foundations for Programming Language). ISBN: 978-7-111-69740-4. 机械工业出版社. <http://www.hzcourse.com/web/teachRes/detail/5352/208>
+
+<!--
 - <u>一种 Python 外部函数的静态类型推断方法及系统</u>. 发明人: 张昱, **胡明哲**. 申请号: CN202111105813.3A. 申请日: 20210922. 公开号: CN113885854A. 公开日: 20220104. <https://patents.google.com/patent/CN113885854A>
 - <u>一种 Python 语言特征自动识别系统和方法</u>. 申请人: 中国科学技术大学, 发明人: 张昱, 彭昀, **胡明哲**. 专利号: ZL202010663123.9, 申请日: 20200710, 公开日: 20201030, 授权公告日: 20220111, 公开号: CN111858322B, 证书号: 4889779. <https://patents.google.com/patent/CN111858322B>
+-->
 
-- Robert Harper 著, 张昱, **胡明哲**等译. <u>实用编程语言理论基础</u>. ISBN: 978-7-111-69740-4. 机械工业出版社. <http://www.hzcourse.com/web/teachRes/detail/5352/208>
-
+<!--
 ### Projects
 
 #### PyCType
@@ -56,3 +59,4 @@ Bugs found: [[NumPy-issue-18665](https://github.com/numpy/numpy/issues/18665)], 
 A static analysis toolset for extracting and analyzing the Python/C API from Python/C multilingual software systems (and CPython itself), bug-finding checkers for some related bug patterns as well.
 
 [[Code](https://github.com/S4Plus/pyceac)], [Bugs found: mishandling exceptions ([Pillow-issue-3966](https://github.com/python-pillow/Pillow/issues/3966), [NumPy-issue-16773](https://github.com/numpy/numpy/issues/16773)), dynamic memory management flaws ([Pillow-issue-4115](https://github.com/python-pillow/Pillow/issues/4115))]
+-->
