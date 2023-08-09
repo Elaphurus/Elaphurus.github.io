@@ -19,7 +19,7 @@ Programming Languages, Static Program Analysis
 ### Education/Employment
 
 - Ph.D. in Cyberspace Security, University of Science and Technology of China (USTC), 2020-?.
-Advisor: Professor Yu Zhang（张昱）, Professor Yan Xiong（熊焰）
+Advisor: Professor Yu Zhang (张昱), Professor Yan Xiong (熊焰)
 - M.S. in Cyberspace Security, University of Science and Technology of China (USTC), 2018-2020.
 Advisor: Professor Yu Zhang
 - Software Engineer, WUXI CAS PHOTONICS Co., Ltd., 2016-2017.
