@@ -1,9 +1,4 @@
----
-layout: post
-title: "[Nobel Literature Prize 1901] Sully Prudhomme"
-date: 2023-02-27
-categories: jekyll update
----
+# [Nobel Literature Prize 1901] Sully Prudhomme
 
 > in special recognition of his poetic composition, which gives evidence of lofty idealism, artistic perfection and a rare combination of the qualities of both heart and intellect
 

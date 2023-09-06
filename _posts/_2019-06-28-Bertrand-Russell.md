@@ -1,11 +1,11 @@
----
-layout: post
-title:  "罗素《幸福之路》摘录"
-date:   2019-06-28
-categories: jekyll update
----
+# [Nobel Literature Prize 1950] Bertrand Russell
 
-"The Conquest of Happiness" (Bertrand Russell)
+> in recognition of his varied and significant writings in which he champions humanitarian ideals and freedom of thought
+
+> 表彰他倡导人道主义理想和思想自由的各种重要著作
+
+## 幸福之路（The Conquest of Happiness）
+
 傅雷（译）
 
 > 我的一生始终为以下三种激情所支配：对真理不可遏止的探求（search for knowledge），对人类苦难不可遏止的同情（pity for the suffering），对爱情不可遏止的追求（longing for love）。—罗素
