@@ -20,7 +20,7 @@ Programming Languages, Static Program Analysis
 
 - Ph.D. in Cyberspace Security, University of Science and Technology of China (USTC), 2020-2023.
 Advisor: Professor Yu Zhang (张昱), Professor Yan Xiong (熊焰) <br/>
-Dissertation: 基于语言接口的多语言软件的安全性及其静态分析 [[PDF]({{site.url}}/doc/phd_dissertation.pdf)]
+Dissertation: 基于语言接口的多语言软件的安全性及其静态分析 [[PDF]({{site.url}}/statics/phd_dissertation.pdf)]
 - M.S. in Cyberspace Security, University of Science and Technology of China (USTC), 2018-2020.
 Advisor: Professor Yu Zhang
 - Software Engineer, WUXI CAS PHOTONICS Co., Ltd., 2016-2017.
