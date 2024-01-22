@@ -18,12 +18,12 @@ Programming Languages, Static Program Analysis
 
 ### Education/Employment
 
-- Lecture, School of Computer Science, Nanjing University of Posts and Telecommunications, 2024-now.
+- Lecturer, School of Computer Science, Nanjing University of Posts and Telecommunications, 2024-now.
 - Ph.D. in Cyberspace Security, University of Science and Technology of China (USTC), 2018-2023.
 Advisor: Professor Yu Zhang (张昱), Professor Yan Xiong (熊焰) <br/>
 Dissertation: 基于语言接口的多语言软件的安全性及其静态分析 [[PDF]({{site.url}}/statics/phd_dissertation.pdf)]
-<!-- - M.S. in Cyberspace Security, University of Science and Technology of China (USTC), 2018-2020. -->
-Advisor: Professor Yu Zhang
+<!-- - M.S. in Cyberspace Security, University of Science and Technology of China (USTC), 2018-2020.
+Advisor: Professor Yu Zhang -->
 - Software Engineer, WUXI CAS PHOTONICS Co., Ltd., 2016-2017.
 - B.S. in Internet of Things, Jiangnan University, 2012-2016.
 
