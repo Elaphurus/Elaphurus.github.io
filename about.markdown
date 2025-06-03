@@ -14,7 +14,7 @@ EMail: humingzhework (at) 163 (dot) com
 
 ### Research Interests
 
-Programming Languages, Static Program Analysis
+Programming Languages, Static Program Analysis, Formal Verification
 
 ### Education/Employment
 
@@ -29,7 +29,7 @@ Advisor: Professor Yu Zhang -->
 
 ### Publications
 
-- **Mingzhe Hu**, Le Yu, Yu Zhang, Liping Han. A Survey of Multi-Language Interoperability and its Program Analysis. IEEE Transactions on Reliability. Accepted.
+- **Mingzhe Hu**, Le Yu, Yu Zhang, Liping Han. <u>A Survey of Multi-Language Interoperability and its Program Analysis</u>. IEEE Transactions on Reliability. Accepted.
 - **Mingzhe Hu**, Qi Zhao, Yu Zhang, Yan Xiong. <u>Cross-Language Call Graph Construction Supporting Different Host Languages</u>. 30th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2023), pages 156-166, Macao SAR, China, March, 2023. <https://doi.org/10.1109/SANER56733.2023.00024>
 - Boyao Ding, Yu Zhang, Jinbao Chen, **Mingzhe Hu**, Qingwei Li. <u>CGORewritter: A better way to use C library in Go</u>. 30th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2023 ERA), pages 688-692, Macao SAR, China, March, 2023. <https://doi.org/10.1109/SANER56733.2023.00072>
 - **Mingzhe Hu**, Yu Zhang. <u>An Empirical Study of the Python/C API on Evolution and Bug Patterns</u>. Journal of Software: Evolution and Process (JSEP). 2023, 35(2): e2507. <https://doi.org/10.1002/smr.2507>
