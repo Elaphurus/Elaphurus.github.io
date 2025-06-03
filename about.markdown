@@ -40,6 +40,7 @@ Advisor: Professor Yu Zhang -->
 - Robert Harper 著, 张昱, **胡明哲**等译. <u>实用编程语言理论基础</u> (Practical Foundations for Programming Language). ISBN: 978-7-111-69740-4. 机械工业出版社. <http://www.hzcourse.com/web/teachRes/detail/5352/208>
 
 - <u>一种 Python 外部函数的静态类型推断方法及系统</u>. 发明人: 张昱, **胡明哲**. 专利号: ZL 2021 1 1105813.3, 授权公告号: CN 113885854 B. <https://patents.google.com/patent/CN113885854A>
+
 <!--
 - <u>一种 Python 语言特征自动识别系统和方法</u>. 申请人: 中国科学技术大学, 发明人: 张昱, 彭昀, **胡明哲**. 专利号: ZL202010663123.9, 申请日: 20200710, 公开日: 20201030, 授权公告日: 20220111, 公开号: CN111858322B, 证书号: 4889779. <https://patents.google.com/patent/CN111858322B>
 -->
