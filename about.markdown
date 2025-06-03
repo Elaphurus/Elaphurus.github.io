@@ -29,6 +29,7 @@ Advisor: Professor Yu Zhang -->
 
 ### Publications
 
+- **Mingzhe Hu**, Le Yu, Yu Zhang, Liping Han. A Survey of Multi-Language Interoperability and its Program Analysis. IEEE Transactions on Reliability. Accepted.
 - **Mingzhe Hu**, Qi Zhao, Yu Zhang, Yan Xiong. <u>Cross-Language Call Graph Construction Supporting Different Host Languages</u>. 30th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2023), pages 156-166, Macao SAR, China, March, 2023. <https://doi.org/10.1109/SANER56733.2023.00024>
 - Boyao Ding, Yu Zhang, Jinbao Chen, **Mingzhe Hu**, Qingwei Li. <u>CGORewritter: A better way to use C library in Go</u>. 30th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2023 ERA), pages 688-692, Macao SAR, China, March, 2023. <https://doi.org/10.1109/SANER56733.2023.00072>
 - **Mingzhe Hu**, Yu Zhang. <u>An Empirical Study of the Python/C API on Evolution and Bug Patterns</u>. Journal of Software: Evolution and Process (JSEP). 2023, 35(2): e2507. <https://doi.org/10.1002/smr.2507>
@@ -38,8 +39,8 @@ Advisor: Professor Yu Zhang -->
 
 - Robert Harper 著, 张昱, **胡明哲**等译. <u>实用编程语言理论基础</u> (Practical Foundations for Programming Language). ISBN: 978-7-111-69740-4. 机械工业出版社. <http://www.hzcourse.com/web/teachRes/detail/5352/208>
 
+- <u>一种 Python 外部函数的静态类型推断方法及系统</u>. 发明人: 张昱, **胡明哲**. 专利号: ZL 2021 1 1105813.3, 授权公告号: CN 113885854 B. <https://patents.google.com/patent/CN113885854A>
 <!--
-- <u>一种 Python 外部函数的静态类型推断方法及系统</u>. 发明人: 张昱, **胡明哲**. 申请号: CN202111105813.3A. 申请日: 20210922. 公开号: CN113885854A. 公开日: 20220104. <https://patents.google.com/patent/CN113885854A>
 - <u>一种 Python 语言特征自动识别系统和方法</u>. 申请人: 中国科学技术大学, 发明人: 张昱, 彭昀, **胡明哲**. 专利号: ZL202010663123.9, 申请日: 20200710, 公开日: 20201030, 授权公告日: 20220111, 公开号: CN111858322B, 证书号: 4889779. <https://patents.google.com/patent/CN111858322B>
 -->
 
