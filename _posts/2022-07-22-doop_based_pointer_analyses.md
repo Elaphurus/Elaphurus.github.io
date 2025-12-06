@@ -5,7 +5,7 @@ date:   2022-07-22
 categories: jekyll update
 ---
 
-# Doop based pointer analyses
+## Doop based pointer analyses
 
 - [Doop based pointer analyses](#doop-based-pointer-analyses)
   - [Doop](#doop)
@@ -18,11 +18,11 @@ categories: jekyll update
 
 今天和大家分享的是指针分析的三个工作，包括 Doop 框架和基于它的两个工作。在 OOPSLA 2009 的文章 [Strictly Declarative Specification of Sophisticated Points-to Analyses](https://dl.acm.org/doi/10.1145/1640089.1640108) 中，Yannis Smaragdakis 等人提出了 Doop 这个指针分析框架，截止到 2022 年 7 月这篇文章有 386 的引用量，也是今天主要介绍的工作。另两个工作是南京大学的李樾、谭添老师在博士和博后阶段的工作，分别是和 [Jingling Xue](https://www.cse.unsw.edu.au/~jingling/) 合作的发表在 SAS 2016 的 [Making k-Object-Sensitive Pointer Analysis More Precise with Still k-Limiting](https://link.springer.com/chapter/10.1007/978-3-662-53413-7_24) (Bean)，和 Anders Møller 与 Yannis Smaragdakis 合作的发表在 FSE 2018 的 [Scalability-First Pointer Analysis with Self-Tuning Context-Sensitivity](https://dl.acm.org/doi/10.1145/3236024.3236041) (Scaler)。[李樾](https://yuelee.bitbucket.io/)、[谭添](https://silverbullettt.bitbucket.io/)和 [Jingling Xue](https://www.cse.unsw.edu.au/~jingling/) 一直都在做指针分析，还有一系列的文章（基础指针分析的会议文章包括 PLDI17，OOPSLA18，OOPSLA19，OOPSLA21，ASE21，ECOOP22 等，还有期刊文章以及基于指针分析的应用）。今天简要介绍的是较早的两篇，主要看一下，不同于 Doop 这种比较基础的工作，一个比较小的基础（非应用）创新点是如何考虑的。
 
-## Doop
+### Doop
 
 首先介绍 OOPSLA 2009 Doop 的工作。
 
-### Datalog 与指针分析
+#### Datalog 与指针分析
 
 Doop 是一个基于 Datalog 的指针分析。
 
@@ -37,7 +37,7 @@ VarPointsTo(?to, ?heap) <- Assign(?from, ?to), VarPointsTo(?from, ?heap).
 
 这种表示是递归和声明式的，简洁清晰，同时可以表达例如可达性关系和指向关系这种互相依赖的分析（互递归定义）。Datalog 程序的求值可以对应关系代数的 join 和 projection，是一个两层循环，join 循环可以应用相对成熟的数据库优化技术。本文的 Datalog 引擎是商业版，[Doop](https://github.com/KnowSciEng/doop) 也提供开源版。商业版（有条件地）支持否定词和函数。
 
-### 指针分析规范
+#### 指针分析规范
 
 Datalog 可以自然地描述形式化的指针分析逻辑规范。有些规范是优化相关的，例如 Java 类的静态初始化方法的上下文无关处理不会影响指向分析的上下文敏感性，但是可以减少运行时间，这种策略会影响逻辑规范，生成的 Datalog 程序是不等价的。
 
@@ -77,13 +77,13 @@ Superinterface(?t, ?s).
 ...
 ```
 
-### 优化与评估
+#### 优化与评估
 
 声明式的规范把分析逻辑和算法实现分开，优化问题可以表示为等价的（即逻辑规范固定，部分规范考虑了优化）Datalog 程序的程序变换，即 join 的顺序会对性能产生影响。单规则的 join 顺序调整是自动的，规则间的优化需要 Datalog 引擎支持一些非标准的特性，例如支持引入新的数据库索引，同时依赖人工，所以这里我们不做深入。
 
 对比当时 state-of-the-art 的 Java 指向分析框架 Paddle，Doop 取得了更好的精度、速度和完整性。Doop 集成了上下文敏感度可选的不同分析，在使用和 Paddle 同精度（1-call-site sensitive）的条件下，Doop 比其快 15 倍。在采用相关工作中最好的精度时，Doop 也比 Paddle 快 10 倍。Paddle 使用的 BDD 是一种可规约的数据结构，相比于此前用稀疏位向量存储指向集合的方法，BDD 主要是用相对小的时间增加得到了较大的内存减少，但是本文认为声明式的显式表示在时间和空间上都优于 BDD。
 
-## Bean
+### Bean
 
 SAS 2016，Making k-Object-Sensitive Pointer Analysis More Precise with Still k-Limiting。
 
@@ -297,7 +297,7 @@ O_root     B/1 -- C/1
 
 虽然实现是在 Doop 中做的，但是本文没有沿用 Doop 的形式规范描述，其形式化章节很值得学习，并给出了 Bean-2obj 在最坏情况下不弱于 2obj 的证明。
 
-## Scaler
+### Scaler
 
 FSE 2018，Scalability-First Pointer Analysis with Self-Tuning Context-Sensitivity。
 
@@ -305,6 +305,6 @@ FSE 2018，Scalability-First Pointer Analysis with Self-Tuning Context-Sensitivi
 
 本文的思路就是对每个方法使用不同的敏感性。通过一个上下文不敏感的指向分析即可得到 OAG，从而预估指向边和上下文的乘积，按照预置的上下文敏感变体排列（精度上升，规模性下降），如 {1type, 2type, 2obj}，根据用户给定的规模性度量阈值（保存指向关系的内存占用），选择精度最高的上下文敏感性。
 
-## 其他
+### 其他
 
 Java 有几乎是通用的基准测试集 DaCapo，其他相对新的语言（如 JavaScript、Python、Go）有吗？相对于爬很多库，基准测试集除了可以大量减少实验评估中的非技术工作量，也可以方便不同工作的横向比较和复现。
