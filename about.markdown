@@ -41,6 +41,13 @@ Advisor: Professor Yu Zhang -->
 
 - <u>一种 Python 外部函数的静态类型推断方法及系统</u>. 发明人: 张昱, **胡明哲**. 专利号: ZL 2021 1 1105813.3, 授权公告号: CN 113885854 B. <https://patents.google.com/patent/CN113885854A>
 
+### Funds
+
+- National Natural Science Foundation of China (Grant No. 62502226). 国家自然科学基金（项目批准号：62502226）。2026.01-2028.12.
+- Natural Science Foundation of Jiangsu Higher Education Institutions of China (Grant No. 25KJB520029). 江苏省高等学校基础科学（自然科学）研究面上项目（项目批准号：25KJB520029）。2025.10-2027.10.
+- Natural Science Foundation of Nanjing University of Posts and Telecommunications (Grant No. NY224143). 南京邮电大学校级自然科学基金（项目批准号：NY224143）。2025.01-2027.12.
+- Natural Science Research Start-up Foundation of Recruiting Talents of Nanjing University of Posts and Telecommunications (Grant No. NY224026). 南京邮电大学引进人才科研启动基金项目（自然科学）（项目批准号：NY224026）。2024.07-2027.06.
+
 <!--
 - <u>一种 Python 语言特征自动识别系统和方法</u>. 申请人: 中国科学技术大学, 发明人: 张昱, 彭昀, **胡明哲**. 专利号: ZL202010663123.9, 申请日: 20200710, 公开日: 20201030, 授权公告日: 20220111, 公开号: CN111858322B, 证书号: 4889779. <https://patents.google.com/patent/CN111858322B>
 -->
