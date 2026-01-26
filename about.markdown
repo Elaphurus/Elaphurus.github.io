@@ -29,7 +29,8 @@ Advisor: Professor Yu Zhang -->
 
 ### Publications
 
-- **胡明哲**,丁秋然,张子涵,谢金言,于乐,韩丽萍.<u>Python软件包库中C/C++外部语言调用的安全性分析</u>.软件学报,accepted.
+- **胡明哲**,丁秋然,张子涵,谢金言,于乐,韩丽萍. <u>Python软件包库中C/C++外部语言调用的安全性分析</u>. 软件学报. 2026, 37(7). <http://dx.doi.org/10.13328/j.cnki.jos.007584>
+- Jinyan Xie, Yingzhou Zhang, **Mingzhe Hu**, Liping Han, Le Yu, Qiuran Ding. <u>Clash: Enhancing Context-Sensitivity in Data-Flow Analysis for Mitigating the Impact of Indirect Calls</u>. Journal of Systems and Software. 2026, 235: 112753. <https://doi.org/10.1016/j.jss.2025.112753>
 - **Mingzhe Hu**, Le Yu, Yu Zhang, Liping Han. <u>A Survey of Multi-Language Interoperability and its Program Analysis</u>. IEEE Transactions on Reliability. 2025, 74(4): 4944-4958. <https://doi.org/10.1109/TR.2025.3576267>
 - **Mingzhe Hu**, Qi Zhao, Yu Zhang, Yan Xiong. <u>Cross-Language Call Graph Construction Supporting Different Host Languages</u>. 30th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2023), pages 156-166, Macao SAR, China, March, 2023. <https://doi.org/10.1109/SANER56733.2023.00024>
 - Boyao Ding, Yu Zhang, Jinbao Chen, **Mingzhe Hu**, Qingwei Li. <u>CGORewritter: A better way to use C library in Go</u>. 30th IEEE International Conference on Software Analysis Evolution and Reengineering (SANER 2023 ERA), pages 688-692, Macao SAR, China, March, 2023. <https://doi.org/10.1109/SANER56733.2023.00072>
