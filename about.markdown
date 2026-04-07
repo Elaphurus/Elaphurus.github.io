@@ -45,6 +45,7 @@ Advisor: Professor Yu Zhang -->
 
 ### Funds
 
+- 2025年江苏省“双创博士”.
 - National Natural Science Foundation of China (Grant No. 62502226). 国家自然科学基金（项目批准号：62502226）。2026.01-2028.12.
 - Natural Science Foundation of Jiangsu Higher Education Institutions of China (Grant No. 25KJB520029). 江苏省高等学校基础科学（自然科学）研究面上项目（项目批准号：25KJB520029）。2025.10-2027.10.
 - Natural Science Foundation of Nanjing University of Posts and Telecommunications (Grant No. NY224143). 南京邮电大学校级自然科学基金（项目批准号：NY224143）。2025.01-2027.12.
