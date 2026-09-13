@@ -29,6 +29,7 @@ Advisor: Professor Yu Zhang -->
 
 ### Publications
 
+- Jun Li, Liang Chen, Wenzhang Wu, **Mingzhe Hu**. <u>Toward Continuous Service in Enterprise-Level Distributed Block Storage Systems</u>. 55th International Conference on Parallel Processing (ICPP 2026), pages 575–583, Singapore, September, 2026. <https://dl.acm.org/doi/10.1145/3832810.3832870>
 - **胡明哲**,丁秋然,张子涵,谢金言,于乐,韩丽萍. <u>Python软件包库中C/C++外部语言调用的安全性分析</u>. 软件学报. 2026, 37(7):2719-2741. <http://dx.doi.org/10.13328/j.cnki.jos.007584>
 - Jinyan Xie, Yingzhou Zhang, **Mingzhe Hu**, Liping Han, Le Yu, Qiuran Ding. <u>Clash: Enhancing Context-Sensitivity in Data-Flow Analysis for Mitigating the Impact of Indirect Calls</u>. Journal of Systems and Software. 2026, 235: 112753. <https://doi.org/10.1016/j.jss.2025.112753>
 - **Mingzhe Hu**, Le Yu, Yu Zhang, Liping Han. <u>A Survey of Multi-Language Interoperability and its Program Analysis</u>. IEEE Transactions on Reliability. 2025, 74(4): 4944-4958. <https://doi.org/10.1109/TR.2025.3576267>
