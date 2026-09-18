@@ -5,4 +5,4 @@ date:   2026-09-13
 categories: jekyll update
 ---
 
-[PDF](https://www.mingzhehu.cn/statics/teaching/double_magic_round.pdf>)
+[PDF](https://www.mingzhehu.cn/statics/teaching/double_magic_round.pdf)
