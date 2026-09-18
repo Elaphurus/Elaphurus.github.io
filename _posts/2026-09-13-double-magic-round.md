@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "浮点数魔数取整"
-date:   2026-09-18
+date:   2026-09-13
 categories: jekyll update
 ---
 
