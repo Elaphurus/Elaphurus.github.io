@@ -10,7 +10,7 @@ permalink: /about/
 
 ### Contact
 
-EMail: humingzhework (at) 163 (dot) com
+EMail: humingzhework@163.com
 
 ### Research Interests
 
